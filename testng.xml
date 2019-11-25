@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FYND" verbose="2">
+	<listeners>
+		<listener class-name="emp.testng.integration.TestngListeners"></listener>
+	</listeners>
+	<test name="EMPLOYEE_TEST">
+		<classes>
+			<class name="emp.test.classes.EmployeeCreateTest" />
+			<class name="emp.test.classes.EmployeeUpdateTest" />
+			<class name="emp.test.classes.EmployeeCRUDTest" />
+			<class name="emp.test.classes.EmployeeDeleteTest" />
+			<class name="emp.test.classes.EmployeeGetTest" />
+			<class name="emp.test.classes.EmployeeListTest" />
+		</classes>
+	</test>
+</suite>

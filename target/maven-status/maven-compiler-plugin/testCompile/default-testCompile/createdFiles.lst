@@ -1,0 +1,7 @@
+emp\test\classes\EmployeeCreateTest.class
+emp\test\classes\EmployeeGetTest.class
+emp\test\classes\EmployeeListTest.class
+emp\test\classes\EmployeeCRUDTest.class
+emp\test\classes\EmployeeDeleteTest.class
+emp\test\classes\TestVerification.class
+emp\test\classes\EmployeeUpdateTest.class
